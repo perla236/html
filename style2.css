@@ -1,0 +1,21 @@
+.box{
+	background-color: yellow;
+	width: 300px;
+	height: 250px;
+	/*margin: auto;*/
+	border: 3px solid red;
+	margin-top: 30px;
+	margin left: 100px;
+	position: relative;
+}
+
+.innerBox{
+	width: 250px;
+	height: 200px;
+	background-color: orange;
+	position: absolute;
+	bottom: 0;
+	
+	left: 0;
+	
+}

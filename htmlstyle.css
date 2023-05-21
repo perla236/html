@@ -1,0 +1,76 @@
+body{
+	font-family:sans-serif ;
+}
+
+.header img{
+	width: 200px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #eee;
+	margin: auto;
+	align-items: center;
+	padding: 10px;	
+}
+
+.header div a{
+	margin-left: 15px;
+	text-decoration: none ;
+}
+
+.header div a:hover{
+	text-decoration: underline;
+}
+
+
+
+.heroSection img{
+	width: 100%;
+}
+
+
+.container{
+	width: 800px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.heroSection {
+	position: relative;
+}
+
+.heroSection h1{
+	position: absolute;
+	top: 0;
+	color: white;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-top: 200px;
+}
+
+.overlay{
+	background-color: black;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 10;
+	right: 10;
+	opacity: 0.2;
+
+}
+
+.offers .offerItem{
+	border: 1px solid grey;
+	background-color: #eee;
+	text-align: center;
+}
+
+.offers .offerWrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}

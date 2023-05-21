@@ -1,0 +1,81 @@
+body {
+	background-color: grey;
+}
+
+section {
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+	border: 1px solid yellow;
+}
+
+div{
+	margin: 10px;
+	border: 1px solid blue;
+}
+
+.kola{
+	background-color: white;
+
+}
+
+
+.mobilniTelefoni{
+	background-color: #eee;
+}
+
+
+.racunala{
+	background-color: blueviolet;
+	color: whitesmoke;
+	text-align: center;
+
+}
+
+
+ /*.racunala h2 {
+	color: whitesmoke;
+}
+
+.racunala h3 {
+	color: whitesmoke;
+}
+*/
+
+.racunala h2{
+	text-align: left;
+}
+
+.posljednjaSekcija{
+	background-color: blue;
+	height: 300px;
+	width: 500px;
+}
+
+
+
+.kola div{
+	width: 300px;
+	display: inline-block;
+	background-color: #eee;
+	text-align: center;
+}
+.mobilniTelefoni{
+	display: flex;
+}
+
+
+.mobilniTelefoni div{
+	width: 30%;
+	background-color: #eee;
+	text-align: center;
+	padding: 15px;
+}
+
+.racunala div{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+}
